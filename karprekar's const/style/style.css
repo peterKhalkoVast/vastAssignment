@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+}
+
+.container {
+  text-align: center;
+}
+
+.header {
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+  padding: 15px;
+  font-style: italic;
+}
+
+form {
+  padding: 15px;
+  font-size: 2rem;
+}
+
+input[type="text"] {
+  border: 1px solid grey;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+button {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
