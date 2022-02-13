@@ -16,7 +16,7 @@
   font-style: italic;
 }
 
-form {
+.formArea {
   padding: 15px;
   font-size: 2rem;
 }
@@ -36,5 +36,11 @@ button {
 button:hover {
   background-color: black;
   color: white;
+}
+
+.result {
+  background-color: white !important;
+  text-align: center;
+  font-size: 2rem;
 }
 /*# sourceMappingURL=style.css.map */

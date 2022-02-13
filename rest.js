@@ -1,5 +1,13 @@
-function addNums(...arr) {
-  console.log(arr);
-}
-let arr = [1, 2, 3, 4];
-addNums(arr);
+let createPerson = (person) => {
+  let name = person.name;
+  let age = person.age;
+  return {
+    name,
+    age,
+  };
+};
+let person = {
+  name: "Peter",
+  age: 25,
+};
+console.log(createPerson(person));
