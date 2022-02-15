@@ -11,16 +11,24 @@
     <div class="container">
       <div class="header"><h2>Kaprekar's constant</h2></div>
       <div class="formArea">
-        <label for="input-number">Enter the Random 4 digit number below</label>
+        <label for="input-number"
+          >6174 is known as Kaprekar's constant <br />
+          <em>
+            Note: Take any four-digit number, using at least two different
+            digits (leading zeros are allowed)</em
+          ></label
+        >
         <br />
         <input type="text" minlength="4" maxlength="4" id="input-number" />
         <br />
-        <button type="submit" id="calculate" onclick="karperkarsLogic()">
+        <button type="submit" id="calculate" onclick="kaprekarsConst()">
           calculate
         </button>
       </div>
+
+      <div class="givenNumber"></div>
+      <div class="result"></div>
     </div>
-    <div class="result"></div>
     <script src="./script/script.js"></script>
   </body>
 </html>
